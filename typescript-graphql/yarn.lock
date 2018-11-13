@@ -63,10 +63,6 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/graphql-deduplicator/-/graphql-deduplicator-2.0.0.tgz#9e577b8f3feb3d067b0ca756f4a1fb356d533922"
 
-"@types/graphql@0.12.6":
-  version "0.12.6"
-  resolved "http://registry.npmjs.org/@types/graphql/-/graphql-0.12.6.tgz#3d619198585fcabe5f4e1adfb5cf5f3388c66c13"
-
 "@types/graphql@^14.0.0":
   version "14.0.3"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.0.3.tgz#389e2e5b83ecdb376d9f98fae2094297bc112c1c"
@@ -137,14 +133,6 @@ apollo-cache-control@^0.1.0:
   resolved "https://registry.yarnpkg.com/apollo-cache-control/-/apollo-cache-control-0.1.1.tgz#173d14ceb3eb9e7cb53de7eb8b61bee6159d4171"
   dependencies:
     graphql-extensions "^0.0.x"
-
-apollo-link@^1.2.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.2.tgz#54c84199b18ac1af8d63553a68ca389c05217a03"
-  dependencies:
-    "@types/graphql" "0.12.6"
-    apollo-utilities "^1.0.0"
-    zen-observable-ts "^0.8.9"
 
 apollo-link@^1.2.3:
   version "1.2.3"
@@ -776,11 +764,11 @@ http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
     setprototypeof "1.1.0"
     statuses ">= 1.4.0 < 2"
 
-http-link-dataloader@^0.1.4:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/http-link-dataloader/-/http-link-dataloader-0.1.5.tgz#3dca3341e449bf26a44b57222fbb1df986958f7d"
+http-link-dataloader@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/http-link-dataloader/-/http-link-dataloader-0.1.6.tgz#ad87d6b5cb6c2745b14b21ffd9cf476c13976c4f"
   dependencies:
-    apollo-link "^1.2.1"
+    apollo-link "^1.2.3"
     cross-fetch "2.2.2"
     dataloader "^1.4.0"
 
@@ -1126,15 +1114,15 @@ prettier@^1.14.3:
   version "1.14.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.14.3.tgz#90238dd4c0684b7edce5f83b0fb7328e48bd0895"
 
-prisma-client-lib@^0.2.59:
-  version "0.2.59"
-  resolved "https://registry.yarnpkg.com/prisma-client-lib/-/prisma-client-lib-0.2.59.tgz#88fb77dbf60fc78281892bb9f29e2d39c22737a2"
+prisma-client-lib@^1.0.0:
+  version "1.20.2"
+  resolved "https://registry.yarnpkg.com/prisma-client-lib/-/prisma-client-lib-1.20.2.tgz#d2076f409dbffe77579f8a9616b5afcfc9bf43c1"
   dependencies:
     "@types/node" "^10.12.0"
     "@types/prettier" "^1.13.2"
     debug "^4.1.0"
     graphql-tag "^2.10.0"
-    http-link-dataloader "^0.1.4"
+    http-link-dataloader "^0.1.6"
     jsonwebtoken "^8.3.0"
     lodash.flatten "^4.4.0"
     prettier "^1.14.3"
@@ -1549,12 +1537,6 @@ yn@^2.0.0:
 zen-observable-ts@^0.8.10:
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-0.8.10.tgz#18e2ce1c89fe026e9621fd83cc05168228fce829"
-  dependencies:
-    zen-observable "^0.8.0"
-
-zen-observable-ts@^0.8.9:
-  version "0.8.9"
-  resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-0.8.9.tgz#d3c97af08c0afdca37ebcadf7cc3ee96bda9bab1"
   dependencies:
     zen-observable "^0.8.0"
 
